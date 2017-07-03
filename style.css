@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Welcome to Compass. */
-/* line 5, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,57 +21,47 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 6, sass/style.scss */
 body {
   font-family: Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic", Verdana, Arial,  sans-serif;
   background-color: #f0f0f0;
 }
 
 /**-----------------loading**/
-/* line 12, sass/style.scss */
 #loader-bg {
   display: none;
   position: fixed;
@@ -84,7 +73,6 @@ body {
   z-index: 1;
 }
 
-/* line 22, sass/style.scss */
 #loader {
   display: none;
   position: fixed;
@@ -100,7 +88,6 @@ body {
 }
 
 /**-----------------slide**/
-/* line 37, sass/style.scss */
 #cover {
   position: relative;
   z-index: 0;
@@ -111,7 +98,6 @@ body {
   left: 0;
   overflow: hidden;
 }
-/* line 47, sass/style.scss */
 #cover h1 {
   position: absolute;
   top: 50%;
@@ -125,7 +111,6 @@ body {
   padding: 2vw;
   border: 5px solid #fff;
 }
-/* line 61, sass/style.scss */
 #cover .intro-slide {
   background: url("./img/dammy-1.jpg") center center no-repeat;
   background-size: cover;
@@ -136,7 +121,6 @@ body {
   height: 100%;
   z-index: 50;
 }
-/* line 72, sass/style.scss */
 #cover .main-slide {
   background: url("./img/dammy-2.jpg") center center no-repeat;
   background-size: cover;
@@ -147,13 +131,11 @@ body {
   height: 100%;
 }
 
-/* line 83, sass/style.scss */
 #contents {
   padding: 20px 10%;
   max-width: 750px;
   margin: 50px auto;
 }
-/* line 88, sass/style.scss */
 #contents h2 {
   margin-bottom: 40px;
   font-size: 150%;
@@ -163,12 +145,10 @@ body {
   padding-bottom: 20px;
   letter-spacing: 0.2em;
 }
-/* line 97, sass/style.scss */
 #contents p {
   margin-bottom: 40px;
   line-height: 2em;
 }
-/* line 101, sass/style.scss */
 #contents img {
   max-width: 100%;
   height: auto;
