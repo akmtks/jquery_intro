@@ -1,22 +1,54 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link href="./css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-<title>SASSテスト</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="./style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="./js/loading.js"></script>
+    <title>イントロ挙動テスト</title>
 </head>
 <body>
-	<div class="layout-box">
-    	<h1>SASSテスト</h1>
-	    	<p>テキスト</p>
-	    	<ul>
-	    		<li>リスト<a href="">テスト</a></li>
-	    		<li>リストテスト</li>
-	    		<li>リストテスト</li>
-	    		<li>リストテスト</li>
-	    	</ul>
-	</div>
+    <!--ロード画面-->
+    <div id="loader-bg">
+        <div id="loader">
+            <img src="./img/loading.gif" width="64" height="64" alt="Now Loading..." />
+            <p>Now Loading...</p>
+        </div>
+    </div>
+    
+    <!--スライドwrap-->
+    <div id="wrap">
+        <div id="cover">
+            <!--イントロスライド-->
+        	<div class="intro-slide">
+            	<h1>INTRO</h1>
+        	</div>
+            <!--本体スライド-->
+        	<div class="main-slide">
+            	<h1>MAIN</h1>
+        	</div>
+        </div>
+        <!--メインコンテンツ-->
+        <div id="contents">
+            <h2>CONTENTS</h2>
+            <p><img src="./img/dammy-3.jpg" alt="" /></p>
+            <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト<br />
+                ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト<br />
+                ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト<br />
+                ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
+            </p>
+            <p><img src="./img/dammy-4.jpg" alt="" /></p>
+            <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト<br />
+                ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト<br />
+                ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト<br />
+                ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery-mousewheel.js"></script>
+    <script type="text/javascript" src="./js/jquery-easing.js"></script>
+    <script type="text/javascript" src="./js/custum-slide.js"></script>
 </body>
